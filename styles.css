@@ -1,0 +1,40 @@
+@keyframes mymove {
+  from {background-color: #ffe5ec;}
+  to {background-color: #ffafcc;}
+}
+body {
+    margin: 20px;
+    font-family: Tahoma,Verdana, Geneva,  sans-serif;
+}
+
+h3{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+h3:hover {
+    font-size: 28px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ffc8dd;
+    color: #2b2839;
+    animation: mymove 3s infinite alternate;
+
+}
+
+.border-blue {
+    border: 2px dotted blue;
+    border-radius: 30%;
+    border-bottom: 6px solid #cdb4db;
+}
+
+
